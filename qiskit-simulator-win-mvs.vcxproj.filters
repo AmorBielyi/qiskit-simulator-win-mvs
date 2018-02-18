@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\engines\base_engine.hpp">
+      <Filter>Headers\engines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engines\sampleshots_engine.hpp">
+      <Filter>Headers\engines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engines\vector_engine.hpp">
+      <Filter>Headers\engines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backends\base_backend.hpp">
+      <Filter>Headers\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backends\clifford_backend.hpp">
+      <Filter>Headers\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backends\ideal_backend.hpp">
+      <Filter>Headers\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backends\noise_models.hpp">
+      <Filter>Headers\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backends\rng_engine.hpp">
+      <Filter>Headers\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backends\qubit_backend.hpp">
+      <Filter>Headers\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\clifford.hpp">
+      <Filter>Headers\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\circuit.hpp">
+      <Filter>Headers\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\matrix.hpp">
+      <Filter>Headers\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\misc.hpp">
+      <Filter>Headers\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\types.hpp">
+      <Filter>Headers\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\binary_vector.hpp">
+      <Filter>Headers\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third-party\json.hpp">
+      <Filter>Headers\third-party</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulator.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{c3792581-13e1-45b1-815e-9d06050623f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\engines">
+      <UniqueIdentifier>{db37a4f7-9814-43b1-bcd3-950e389d3b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\backends">
+      <UniqueIdentifier>{381bfe7a-8c61-4817-b339-c3a8359a7e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\third-party">
+      <UniqueIdentifier>{d4c29d0f-8f14-4ef1-b0c6-d6948767c30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\utilities">
+      <UniqueIdentifier>{41495328-78d9-4a15-980a-0a24207256ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{db090b69-292b-49a2-9684-7e1c6ba0f4d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
